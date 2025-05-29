@@ -64,7 +64,7 @@ export default function Footer() {
           <p className="text-gray-300">&copy; 2024 Hubble. All rights reserved.</p>
           <div className="flex space-x-6 mt-4 md:mt-0">
             <a href="/privacy-policy" className="text-gray-300 hover:text-white transition-colors">Privacy Policy</a>
-            <a href="#" className="text-gray-300 hover:text-white transition-colors">Terms of Service</a>
+            <a href="/terms-of-service" className="text-gray-300 hover:text-white transition-colors">Terms of Service</a>
           </div>
         </div>
       </div>
