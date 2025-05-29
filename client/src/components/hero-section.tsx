@@ -51,7 +51,7 @@ export default function HeroSection() {
             
             <div className="flex items-center justify-center lg:justify-start space-x-8 pt-8">
               <div className="text-center">
-                <div className="font-bold text-3xl text-black">50+</div>
+                <div className="font-bold text-3xl text-black">10+</div>
                 <div className="text-gray-600 font-medium">Projects Delivered</div>
               </div>
               <div className="text-center">
@@ -59,7 +59,7 @@ export default function HeroSection() {
                 <div className="text-gray-600 font-medium">Client Satisfaction</div>
               </div>
               <div className="text-center">
-                <div className="font-bold text-3xl text-black">2x</div>
+                <div className="font-bold text-3xl text-black">75%</div>
                 <div className="text-gray-600 font-medium">Average Efficiency Gain</div>
               </div>
             </div>

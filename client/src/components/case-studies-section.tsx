@@ -117,12 +117,12 @@ export default function CaseStudiesSection() {
           <div className="bg-black rounded-3xl p-12">
             <div className="grid md:grid-cols-4 gap-8 text-center">
               <div>
-                <div className="font-bold text-4xl text-white mb-2">85%</div>
+                <div className="font-bold text-4xl text-white mb-2">75%</div>
                 <div className="text-gray-300">Average Efficiency Improvement</div>
               </div>
               <div>
-                <div className="font-bold text-4xl text-white mb-2">$2.5M</div>
-                <div className="text-gray-300">Average Annual Savings</div>
+                <div className="font-bold text-4xl text-white mb-2">25+</div>
+                <div className="text-gray-300">Years Combined Experience</div>
               </div>
               <div>
                 <div className="font-bold text-4xl text-white mb-2">6 Months</div>
