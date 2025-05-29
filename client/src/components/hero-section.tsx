@@ -23,14 +23,13 @@ export default function HeroSection() {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <AnimatedSection className="text-center lg:text-left">
             <h1 className="font-bold text-4xl md:text-6xl lg:text-7xl leading-tight mb-6 text-black">
-              Streamlining Your Supply Chain with{" "}
               <span className="relative">
-                <span className="text-black">Intelligent Software</span>
+                <span className="text-black">Supply chain, reimagined</span>
                 <div className="absolute -bottom-2 left-0 w-full h-1 bg-black/20"></div>
               </span>
             </h1>
             <p className="text-xl text-gray-600 mb-8 max-w-2xl">
-              Transform supply chain challenges into opportunities with custom, user-centric software solutions designed for manufacturing, logistics, and distribution.
+              Boutique software development focused exclusively on transforming complex supply chain challenges into elegant digital solutions
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <Button 
