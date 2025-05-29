@@ -18,7 +18,7 @@ export default function AboutSection() {
                   We're not just developers; we're your dedicated partners in innovation, committed to excellence and transformative solutions.
                 </p>
               </div>
-              
+
               <div className="space-y-6">
                 <div className="flex items-start space-x-4">
                   <div className="w-6 h-6 bg-black flex-shrink-0 mt-1" style={{ clipPath: 'polygon(50% 0%, 0% 100%, 100% 100%)' }}></div>
@@ -27,7 +27,7 @@ export default function AboutSection() {
                     <p className="text-gray-600">Top-tier expertise with a collaborative, approachable attitude. Experience seamless partnership with a team that genuinely cares about your success.</p>
                   </div>
                 </div>
-                
+
                 <div className="flex items-start space-x-4">
                   <div className="w-6 h-6 bg-black flex-shrink-0 mt-1" style={{ clipPath: 'polygon(0% 0%, 100% 0%, 50% 100%)' }}></div>
                   <div>
@@ -35,7 +35,7 @@ export default function AboutSection() {
                     <p className="text-gray-600">Constantly seeking smarter, better ways to solve problems. We embrace cutting-edge technologies to ensure your solutions stay ahead of the curve.</p>
                   </div>
                 </div>
-                
+
                 <div className="flex items-start space-x-4">
                   <div className="w-6 h-6 bg-black flex-shrink-0 mt-1" style={{ clipPath: 'polygon(50% 0%, 0% 100%, 100% 100%)' }}></div>
                   <div>
@@ -43,7 +43,7 @@ export default function AboutSection() {
                     <p className="text-gray-600">We challenge the status quo to build solutions that don't just improve processes, but fundamentally transform them for competitive advantage.</p>
                   </div>
                 </div>
-                
+
                 <div className="flex items-start space-x-4">
                   <div className="w-6 h-6 bg-black flex-shrink-0 mt-1" style={{ clipPath: 'polygon(0% 0%, 100% 0%, 50% 100%)' }}></div>
                   <div>
@@ -54,7 +54,7 @@ export default function AboutSection() {
               </div>
             </div>
           </AnimatedSection>
-          
+
           <AnimatedSection delay={0.3}>
             <div className="grid grid-cols-2 gap-4">
               <img 
@@ -62,22 +62,22 @@ export default function AboutSection() {
                 alt="Modern software development team" 
                 className="rounded-xl shadow-lg" 
               />
-              
+
               <img 
                 src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=300" 
                 alt="Manufacturing facility technology" 
                 className="rounded-xl shadow-lg mt-8" 
               />
-              
+
               <img 
-                src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=300" 
-                alt="Software development team meeting" 
+                src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=300" 
+                alt="Young creative professionals collaborating on innovative software solutions" 
                 className="rounded-xl shadow-lg" 
               />
-              
-              <img 
-                src="https://images.unsplash.com/photo-1566576912321-d58ddd7a6088?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=300" 
-                alt="Logistics and distribution center" 
+
+              <img
+                src="https://images.unsplash.com/photo-1531482615713-2afd69097998?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=300" 
+                alt="Modern tech startup team working on digital innovation" 
                 className="rounded-xl shadow-lg mt-8" 
               />
             </div>
