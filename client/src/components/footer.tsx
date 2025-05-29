@@ -1,10 +1,12 @@
+import hubbleWhiteLogo from "@assets/Hubble White Logo.png";
+
 export default function Footer() {
   return (
     <footer className="bg-black text-white py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-4 gap-8">
           <div className="space-y-4">
-            <img src="/attached_assets/Hubble White Logo.png" alt="Hubble Logo" className="h-8 w-auto" />
+            <img src={hubbleWhiteLogo} alt="Hubble Logo" className="h-8 w-auto" />
             <p className="text-gray-300 leading-relaxed">
               Revolutionizing supply chain operations with intelligent, intuitive software solutions.
             </p>

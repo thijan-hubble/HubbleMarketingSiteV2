@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
+import hubbleBlackLogo from "@assets/Hubble Black Logo.png";
 
 export default function Navigation() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -20,7 +21,7 @@ export default function Navigation() {
           {/* Logo */}
           <div className="flex items-center">
             <img 
-              src="/attached_assets/Hubble Black Logo.png" 
+              src={hubbleBlackLogo} 
               alt="Hubble Logo" 
               className="h-8 w-auto"
             />
