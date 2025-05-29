@@ -28,7 +28,7 @@ export default function Footer() {
               </a>
             </div>
           </div>
-          
+
           <div>
             <h4 className="font-semibold text-lg mb-4">Services</h4>
             <ul className="space-y-2">
@@ -38,7 +38,7 @@ export default function Footer() {
               <li><a href="#" className="text-gray-300 hover:text-white transition-colors">Process Automation</a></li>
             </ul>
           </div>
-          
+
           <div>
             <h4 className="font-semibold text-lg mb-4">Industries</h4>
             <ul className="space-y-2">
@@ -48,7 +48,7 @@ export default function Footer() {
               <li><a href="#" className="text-gray-300 hover:text-white transition-colors">Laboratories</a></li>
             </ul>
           </div>
-          
+
           <div>
             <h4 className="font-semibold text-lg mb-4">Company</h4>
             <ul className="space-y-2">
@@ -59,11 +59,11 @@ export default function Footer() {
             </ul>
           </div>
         </div>
-        
+
         <div className="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-300">&copy; 2024 Hubble. All rights reserved.</p>
           <div className="flex space-x-6 mt-4 md:mt-0">
-            <a href="#" className="text-gray-300 hover:text-white transition-colors">Privacy Policy</a>
+            <a href="/privacy-policy" className="text-gray-300 hover:text-white transition-colors">Privacy Policy</a>
             <a href="#" className="text-gray-300 hover:text-white transition-colors">Terms of Service</a>
           </div>
         </div>
