@@ -125,8 +125,8 @@ export default function CaseStudiesSection() {
                 <div className="text-gray-300">Years Combined Experience</div>
               </div>
               <div>
-                <div className="font-bold text-4xl text-white mb-2">6 Months</div>
-                <div className="text-gray-300">Average Implementation Time</div>
+                <div className="font-bold text-4xl text-white mb-2">4-6 Weeks</div>
+                <div className="text-gray-300">Average for First Value Delivered</div>
               </div>
               <div>
                 <div className="font-bold text-4xl text-white mb-2">100%</div>
