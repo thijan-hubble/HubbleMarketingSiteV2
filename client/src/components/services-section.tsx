@@ -16,7 +16,7 @@ export default function ServicesSection() {
             </p>
           </div>
         </AnimatedSection>
-        
+
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
           <AnimatedSection delay={0.1}>
             <Card className="bg-gray-50 border-0 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 group h-full">
@@ -33,13 +33,21 @@ export default function ServicesSection() {
                 <p className="text-gray-600 leading-relaxed mb-6">
                   We don't just build; we understand. Our discovery process pinpoints your exact problems and blueprints solutions that truly fit.
                 </p>
-                <button className="inline-flex items-center text-black font-semibold hover:text-gray-600 transition-colors">
+                <button 
+                  onClick={() => {
+                    const element = document.getElementById('contact');
+                    if (element) {
+                      element.scrollIntoView({ behavior: "smooth" });
+                    }
+                  }}
+                  className="inline-flex items-center text-black font-semibold hover:text-gray-600 transition-colors"
+                >
                   Learn More <span className="ml-2">→</span>
                 </button>
               </CardContent>
             </Card>
           </AnimatedSection>
-          
+
           <AnimatedSection delay={0.2}>
             <Card className="bg-gray-50 border-0 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 group h-full">
               <CardHeader>
@@ -55,13 +63,21 @@ export default function ServicesSection() {
                 <p className="text-gray-600 leading-relaxed mb-6">
                   Forget one-size-fits-all. We develop bespoke software that directly addresses your unique operational pain points and strategic goals.
                 </p>
-                <button className="inline-flex items-center text-black font-semibold hover:text-gray-600 transition-colors">
+                <button 
+                  onClick={() => {
+                    const element = document.getElementById('contact');
+                    if (element) {
+                      element.scrollIntoView({ behavior: "smooth" });
+                    }
+                  }}
+                  className="inline-flex items-center text-black font-semibold hover:text-gray-600 transition-colors"
+                >
                   Learn More <span className="ml-2">→</span>
                 </button>
               </CardContent>
             </Card>
           </AnimatedSection>
-          
+
           <AnimatedSection delay={0.3}>
             <Card className="bg-gray-50 border-0 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 group h-full">
               <CardHeader>
@@ -77,14 +93,22 @@ export default function ServicesSection() {
                 <p className="text-gray-600 leading-relaxed mb-6">
                   Powerful software should be a joy to use. Our solutions ensure high adoption rates and seamless workflows for your team.
                 </p>
-                <button className="inline-flex items-center text-black font-semibold hover:text-gray-600 transition-colors">
+                <button 
+                  onClick={() => {
+                    const element = document.getElementById('contact');
+                    if (element) {
+                      element.scrollIntoView({ behavior: "smooth" });
+                    }
+                  }}
+                  className="inline-flex items-center text-black font-semibold hover:text-gray-600 transition-colors"
+                >
                   Learn More <span className="ml-2">→</span>
                 </button>
               </CardContent>
             </Card>
           </AnimatedSection>
         </div>
-        
+
         {/* Industries We Serve */}
         <AnimatedSection delay={0.4}>
           <div className="bg-black rounded-3xl p-12 text-center">

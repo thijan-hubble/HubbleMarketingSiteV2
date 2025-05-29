@@ -16,7 +16,7 @@ export default function CaseStudiesSection() {
             </p>
           </div>
         </AnimatedSection>
-        
+
         <div className="grid lg:grid-cols-3 gap-8 mb-16">
           <AnimatedSection delay={0.1}>
             <Card className="bg-gray-50 border-0 hover:shadow-xl transition-all duration-300 h-full">
@@ -33,14 +33,22 @@ export default function CaseStudiesSection() {
               </CardHeader>
               <CardContent>
                 <p className="text-gray-600 mb-6">A leading automotive manufacturer streamlined their inventory management with our custom solution, reducing processing time by 50% and eliminating manual errors.</p>
-                <div className="flex items-center justify-between">
+                <button 
+                  onClick={() => {
+                    const element = document.getElementById('contact');
+                    if (element) {
+                      element.scrollIntoView({ behavior: "smooth" });
+                    }
+                  }}
+                  className="flex items-center justify-between w-full text-left hover:text-gray-600 transition-colors"
+                >
                   <span className="text-black font-semibold">Read Case Study</span>
                   <span className="text-black">→</span>
-                </div>
+                </button>
               </CardContent>
             </Card>
           </AnimatedSection>
-          
+
           <AnimatedSection delay={0.2}>
             <Card className="bg-gray-50 border-0 hover:shadow-xl transition-all duration-300 h-full">
               <div className="relative">
@@ -56,14 +64,22 @@ export default function CaseStudiesSection() {
               </CardHeader>
               <CardContent>
                 <p className="text-gray-600 mb-6">A global logistics company gained complete supply chain visibility with our real-time tracking system, improving delivery accuracy by 35%.</p>
-                <div className="flex items-center justify-between">
+                <button 
+                  onClick={() => {
+                    const element = document.getElementById('contact');
+                    if (element) {
+                      element.scrollIntoView({ behavior: "smooth" });
+                    }
+                  }}
+                  className="flex items-center justify-between w-full text-left hover:text-gray-600 transition-colors"
+                >
                   <span className="text-black font-semibold">Read Case Study</span>
                   <span className="text-black">→</span>
-                </div>
+                </button>
               </CardContent>
             </Card>
           </AnimatedSection>
-          
+
           <AnimatedSection delay={0.3}>
             <Card className="bg-gray-50 border-0 hover:shadow-xl transition-all duration-300 h-full">
               <div className="relative">
@@ -79,15 +95,23 @@ export default function CaseStudiesSection() {
               </CardHeader>
               <CardContent>
                 <p className="text-gray-600 mb-6">A major distribution center automated their order processing workflow, reducing order-to-ship time from 48 hours to just 6 hours.</p>
-                <div className="flex items-center justify-between">
+                <button 
+                  onClick={() => {
+                    const element = document.getElementById('contact');
+                    if (element) {
+                      element.scrollIntoView({ behavior: "smooth" });
+                    }
+                  }}
+                  className="flex items-center justify-between w-full text-left hover:text-gray-600 transition-colors"
+                >
                   <span className="text-black font-semibold">Read Case Study</span>
                   <span className="text-black">→</span>
-                </div>
+                </button>
               </CardContent>
             </Card>
           </AnimatedSection>
         </div>
-        
+
         {/* Stats Section */}
         <AnimatedSection delay={0.4}>
           <div className="bg-black rounded-3xl p-12">
