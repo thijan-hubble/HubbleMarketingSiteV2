@@ -19,9 +19,11 @@ export default function Navigation() {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex items-center">
-            <span className="text-3xl font-bold text-black" style={{ fontFamily: 'Dancing Script, cursive' }}>
-              hubble
-            </span>
+            <img 
+              src="/attached_assets/Hubble Black Logo.png" 
+              alt="Hubble Logo" 
+              className="h-8 w-auto"
+            />
           </div>
           
           {/* Desktop Navigation */}
