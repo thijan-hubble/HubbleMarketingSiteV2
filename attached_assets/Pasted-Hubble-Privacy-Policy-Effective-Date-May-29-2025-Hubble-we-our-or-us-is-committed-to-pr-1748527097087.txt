@@ -1,0 +1,88 @@
+Hubble Privacy Policy
+Effective Date: May 29, 2025
+
+Hubble ("we," "our," or "us") is committed to protecting the privacy of our website visitors and clients. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website at [Your Website URL Here] (the "Site"), or when you engage with us through other means, such as contacting us for our services.
+
+By accessing or using our Site, you signify that you have read, understood, and agree to our collection, storage, use, and disclosure of your personal information as described in this Privacy Policy.
+
+1. Information We Collect
+We collect information that identifies, relates to, describes, is reasonably capable of being associated with, or could reasonably be linked, directly or indirectly, with a particular individual or household ("Personal Information"). We may collect Personal Information from you in the following ways:
+
+a. Information You Provide Directly:
+This includes information you voluntarily provide to us when you:
+
+Fill out a contact form or request a demo on our Site.
+Subscribe to our newsletter or other marketing communications.
+Communicate with us via email, phone, or other channels.
+Provide us with information during a discovery phase for a project.
+The types of Personal Information you may provide include:
+
+Contact Information: Name, email address, phone number.
+Professional Information: Company name, job title, industry, business needs, and project details.
+Communication Content: Any messages or inquiries you send to us.
+b. Information Collected Automatically (Cookies and Tracking Technologies):
+When you visit our Site, we may automatically collect certain information about your device and Browse activity through cookies, web beacons, and similar technologies. This information helps us understand how our Site is used and allows us to improve your Browse experience. This may include:
+
+Device Information: IP address, browser type, operating system, device type.
+Usage Data: Pages visited, time spent on pages, links clicked, referring URL, search terms.
+Geographic Information: General location data derived from your IP address.
+2. How We Use Your Information
+We use the Personal Information we collect for various business purposes, including:
+
+To Provide and Improve Services: To respond to your inquiries, provide the services you request, and enhance the functionality and user experience of our Site and solutions.
+Communication: To send you updates, newsletters, marketing or promotional materials (if you have opted in), and other information that may be of interest to you. You can opt-out of these communications at any time.
+Analytics and Research: To analyze Site usage, understand user behavior, and conduct research to improve our services and marketing efforts.
+Business Operations: For internal record keeping, administration of our business, and to detect and prevent fraud or other illegal activities.
+Legal Compliance: To comply with applicable laws, regulations, and legal processes, and to enforce our terms and conditions.
+3. How We Share Your Information
+We do not sell your Personal Information to third parties. We may share your information in the following limited circumstances:
+
+With Service Providers: We may share your information with third-party vendors, consultants, and other service providers who perform services on our behalf, such as website hosting, analytics, CRM systems, email marketing, and customer support. These service providers are obligated to protect your information and use it only for the purposes for which it was disclosed.
+For Legal Reasons: We may disclose your information if required to do so by law or in the good faith belief that such action is necessary to comply with legal obligations, protect and defend the rights or property of Hubble, prevent fraud, or protect the personal safety of Site users or the public.
+Business Transfers: In the event of a merger, acquisition, or sale of all or a portion of our assets, your Personal Information may be transferred as part of the transaction. We will notify you via email and/or a prominent notice on our Site of any change in ownership or uses of your Personal Information.
+With Your Consent: We may share your information with third parties when we have your explicit consent to do so.
+4. Cookies and Tracking Technologies
+We use cookies and similar tracking technologies to track the activity on our Site and hold certain information. Cookies are small data files placed on your computer or mobile device when you visit a website. They are widely used to make websites work or work more efficiently, as well as to provide reporting information.
+
+We use different types of cookies for various purposes:
+
+Essential Cookies: Necessary for the Site to function properly (e.g., enabling navigation).
+Performance and Analytics Cookies: Help us understand how visitors interact with our Site by collecting and reporting information anonymously (e.g., Google Analytics).
+Functionality Cookies: Allow the Site to remember choices you make and provide enhanced, more personalized features.
+Marketing/Advertising Cookies: Used to deliver advertisements relevant to your interests and measure the effectiveness of advertising campaigns.
+You have the ability to accept or decline cookies. Most web browsers automatically accept cookies, but you can usually modify your browser setting to decline cookies if you prefer. However, if you choose to decline cookies, some features of our Site may not function properly.
+
+5. Data Security
+We implement reasonable technical, administrative, and physical security measures designed to protect your Personal Information from unauthorized access, use, alteration, and disclosure. However, no internet transmission or electronic storage method is 100% secure. Therefore, we cannot guarantee its absolute security.
+
+6. Data Retention
+We retain your Personal Information for as long as necessary to fulfill the purposes for which it was collected, including for the purposes of satisfying any legal, accounting, or reporting requirements. When we no longer need to process your Personal Information, we will either delete or anonymize it, or, if this is not possible (for example, because your Personal Information has been stored in backup archives), then we will securely store your Personal Information and isolate it from any further processing until deletion is possible.
+
+7. Your Data Protection Rights
+Depending on your jurisdiction (e.g., under the Protection of Personal Information Act (POPIA) in South Africa, GDPR in the EU, or CCPA in California), you may have the following rights regarding your Personal Information:
+
+Right to Access: To request access to the Personal Information we hold about you.
+Right to Rectification: To request correction of inaccurate or incomplete Personal Information.
+Right to Erasure ("Right to Be Forgotten"): To request the deletion of your Personal Information under certain conditions.
+Right to Restrict Processing: To request that we restrict the processing of your Personal Information under certain conditions.
+Right to Data Portability: To receive your Personal Information in a structured, commonly used, and machine-readable format and to transmit that data to another controller.
+Right to Object: To object to our processing of your Personal Information under certain conditions.
+Right to Withdraw Consent: Where we rely on your consent to process your Personal Information, you have the right to withdraw that consent at any time.
+To exercise any of these rights, please contact us using the "Contact Us" details provided below. We will respond to your request in accordance with applicable data protection laws.
+
+8. Third-Party Links
+Our Site may contain links to third-party websites that are not operated by us. This Privacy Policy does not apply to the practices of these third-party websites. We encourage you to review the privacy policies of any third-party sites you visit.
+
+9. Children's Privacy
+Our Site is not intended for individuals under the age of [e.g., 13 or 16]. We do not knowingly collect Personal Information from children. If you are a parent or guardian and believe that your child has provided us with Personal Information, please contact us, and we will take steps to remove such information from our systems.
+
+10. Changes to This Privacy Policy
+We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Effective Date" at the top. We encourage you to review this Privacy Policy periodically for any changes.
+
+11. Contact Us
+If you have any questions or concerns about this Privacy Policy or our data practices, please contact us:
+
+Hubble
+[Your Company's Physical Address]
+Email: [Your Company's General Email Address, e.g., info@hubble.com]
+Phone: [Your Company's Phone Number]
