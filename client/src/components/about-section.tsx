@@ -9,9 +9,12 @@ export default function AboutSection() {
           <AnimatedSection>
             <div className="space-y-8">
               <div>
-                <h2 className="font-bold text-4xl lg:text-5xl mb-6 text-black">
-                  Why Choose <img src={hubbleBlackLogo} alt="Hubble" className="inline h-16 w-auto mx-2" />?
-                </h2>
+                <div className="mb-6">
+                  <img src={hubbleBlackLogo} alt="Hubble" className="h-16 w-auto mb-4" />
+                  <h2 className="font-bold text-4xl lg:text-5xl text-black">
+                    Why Choose Hubble?
+                  </h2>
+                </div>
                 <p className="text-xl text-gray-600 leading-relaxed">
                   We're not just developers; we're your dedicated partners in innovation, committed to excellence and transformative solutions.
                 </p>
