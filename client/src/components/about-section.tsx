@@ -10,7 +10,6 @@ export default function AboutSection() {
             <div className="space-y-8">
               <div>
                 <div className="mb-6">
-                  <img src={hubbleBlackLogo} alt="Hubble" className="h-16 w-auto mb-4" />
                   <h2 className="font-bold text-4xl lg:text-5xl text-black">
                     Why Choose Hubble?
                   </h2>
