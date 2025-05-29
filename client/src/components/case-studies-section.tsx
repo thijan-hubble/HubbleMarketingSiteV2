@@ -22,17 +22,17 @@ export default function CaseStudiesSection() {
             <Card className="bg-gray-50 border-0 hover:shadow-xl transition-all duration-300 h-full">
               <div className="relative">
                 <img 
-                  src="https://images.unsplash.com/photo-1553413077-190dd305871c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&h=300" 
-                  alt="Supply chain warehouse operations" 
+                  src="https://images.unsplash.com/photo-1580674285054-bed31e145f59?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&h=300" 
+                  alt="Logistics operations" 
                   className="w-full h-48 object-cover rounded-t-lg" 
                 />
               </div>
               <CardHeader>
-                <Badge className="bg-black text-white w-fit mb-4">Manufacturing</Badge>
-                <CardTitle className="text-xl">50% Faster Inventory Processing</CardTitle>
+                <Badge className="bg-black text-white w-fit mb-4">Logistics</Badge>
+                <CardTitle className="text-xl">Integrated Operations Streamlining</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-gray-600 mb-6">A leading automotive manufacturer streamlined their inventory management with our custom solution, reducing processing time by 50% and eliminating manual errors.</p>
+                <p className="text-gray-600 mb-6">Implementing an end-to-end solution for a major long-haul logistics company, optimizing processes from order intake and planning through to operational execution.</p>
                 <button 
                   onClick={() => {
                     const element = document.getElementById('contact');
@@ -42,7 +42,7 @@ export default function CaseStudiesSection() {
                   }}
                   className="flex items-center justify-between w-full text-left hover:text-gray-600 transition-colors"
                 >
-                  <span className="text-black font-semibold">Read Case Study</span>
+                  <span className="text-black font-semibold">Learn more</span>
                   <span className="text-black">→</span>
                 </button>
               </CardContent>
@@ -53,17 +53,17 @@ export default function CaseStudiesSection() {
             <Card className="bg-gray-50 border-0 hover:shadow-xl transition-all duration-300 h-full">
               <div className="relative">
                 <img 
-                  src="https://images.unsplash.com/photo-1580674285054-bed31e145f59?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&h=300" 
-                  alt="Distribution center operations" 
+                  src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&h=300" 
+                  alt="Pharmaceutical laboratory" 
                   className="w-full h-48 object-cover rounded-t-lg" 
                 />
               </div>
               <CardHeader>
-                <Badge className="bg-black text-white w-fit mb-4">Logistics</Badge>
-                <CardTitle className="text-xl">Real-Time Supply Chain Visibility</CardTitle>
+                <Badge className="bg-black text-white w-fit mb-4">Labs</Badge>
+                <CardTitle className="text-xl">Automated Pharmaceutical QC & Auditing</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-gray-600 mb-6">A global logistics company gained complete supply chain visibility with our real-time tracking system, improving delivery accuracy by 35%.</p>
+                <p className="text-gray-600 mb-6">Developing a comprehensive system for an international pharmaceutical lab, digitizing and automating their critical quality control and auditing processes.</p>
                 <button 
                   onClick={() => {
                     const element = document.getElementById('contact');
@@ -73,7 +73,7 @@ export default function CaseStudiesSection() {
                   }}
                   className="flex items-center justify-between w-full text-left hover:text-gray-600 transition-colors"
                 >
-                  <span className="text-black font-semibold">Read Case Study</span>
+                  <span className="text-black font-semibold">Learn more</span>
                   <span className="text-black">→</span>
                 </button>
               </CardContent>
@@ -84,17 +84,17 @@ export default function CaseStudiesSection() {
             <Card className="bg-gray-50 border-0 hover:shadow-xl transition-all duration-300 h-full">
               <div className="relative">
                 <img 
-                  src="https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&h=300" 
-                  alt="Automated warehouse technology" 
+                  src="https://images.unsplash.com/photo-1553413077-190dd305871c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&h=300" 
+                  alt="Supply chain equipment tracking" 
                   className="w-full h-48 object-cover rounded-t-lg" 
                 />
               </div>
               <CardHeader>
-                <Badge className="bg-black text-white w-fit mb-4">Distribution</Badge>
-                <CardTitle className="text-xl">Automated Order Processing</CardTitle>
+                <Badge className="bg-black text-white w-fit mb-4">Supply Chain Equipment</Badge>
+                <CardTitle className="text-xl">Real-Time Rental Asset Tracking</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-gray-600 mb-6">A major distribution center automated their order processing workflow, reducing order-to-ship time from 48 hours to just 6 hours.</p>
+                <p className="text-gray-600 mb-6">Digitizing operations for a supply chain rental equipment company to provide real-time insight into stock movement and asset utilization.</p>
                 <button 
                   onClick={() => {
                     const element = document.getElementById('contact');
@@ -104,7 +104,7 @@ export default function CaseStudiesSection() {
                   }}
                   className="flex items-center justify-between w-full text-left hover:text-gray-600 transition-colors"
                 >
-                  <span className="text-black font-semibold">Read Case Study</span>
+                  <span className="text-black font-semibold">Learn more</span>
                   <span className="text-black">→</span>
                 </button>
               </CardContent>
