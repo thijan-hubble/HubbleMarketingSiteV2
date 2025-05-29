@@ -66,15 +66,97 @@ export default function HeroSection() {
           </AnimatedSection>
           
           <AnimatedSection delay={0.3} className="relative">
-            <img 
-              src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600" 
-              alt="Modern supply chain warehouse operations" 
-              className="rounded-2xl shadow-2xl w-full h-auto" 
-            />
-            
-            {/* Decorative triangles */}
-            <div className="absolute -top-4 -right-4 w-8 h-8 bg-black opacity-80" style={{ clipPath: 'polygon(50% 0%, 0% 100%, 100% 100%)' }}></div>
-            <div className="absolute -bottom-4 -left-4 w-6 h-6 bg-black opacity-60" style={{ clipPath: 'polygon(0% 0%, 100% 0%, 50% 100%)' }}></div>
+            <div className="bg-gray-50 rounded-2xl shadow-2xl p-12 h-96 flex items-center justify-center relative overflow-hidden">
+              {/* Animated Supply Chain Diagram */}
+              <svg width="100%" height="100%" viewBox="0 0 400 300" className="absolute inset-0">
+                {/* Background grid */}
+                <defs>
+                  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+                    <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#e5e7eb" strokeWidth="1" opacity="0.3"/>
+                  </pattern>
+                </defs>
+                <rect width="100%" height="100%" fill="url(#grid)" />
+                
+                {/* Main flow lines */}
+                <g stroke="#000" strokeWidth="2" fill="none">
+                  {/* Horizontal main line */}
+                  <path d="M 50 150 L 350 150" className="animate-pulse">
+                    <animate attributeName="stroke-dasharray" values="0,300;300,0" dur="3s" repeatCount="indefinite"/>
+                  </path>
+                  
+                  {/* Vertical connectors */}
+                  <path d="M 120 80 L 120 150" className="animate-pulse">
+                    <animate attributeName="stroke-dasharray" values="0,70;70,0" dur="2.5s" repeatCount="indefinite"/>
+                  </path>
+                  <path d="M 200 150 L 200 220" className="animate-pulse">
+                    <animate attributeName="stroke-dasharray" values="0,70;70,0" dur="2.8s" repeatCount="indefinite"/>
+                  </path>
+                  <path d="M 280 80 L 280 150" className="animate-pulse">
+                    <animate attributeName="stroke-dasharray" values="0,70;70,0" dur="3.2s" repeatCount="indefinite"/>
+                  </path>
+                  
+                  {/* Branch lines */}
+                  <path d="M 80 80 L 160 80" className="animate-pulse">
+                    <animate attributeName="stroke-dasharray" values="0,80;80,0" dur="2.2s" repeatCount="indefinite"/>
+                  </path>
+                  <path d="M 160 220 L 240 220" className="animate-pulse">
+                    <animate attributeName="stroke-dasharray" values="0,80;80,0" dur="2.7s" repeatCount="indefinite"/>
+                  </path>
+                  <path d="M 240 80 L 320 80" className="animate-pulse">
+                    <animate attributeName="stroke-dasharray" values="0,80;80,0" dur="3.1s" repeatCount="indefinite"/>
+                  </path>
+                </g>
+                
+                {/* Process nodes */}
+                <g>
+                  {/* Main process nodes */}
+                  <circle cx="120" cy="150" r="6" fill="#000" className="animate-pulse">
+                    <animate attributeName="r" values="6;8;6" dur="2s" repeatCount="indefinite"/>
+                  </circle>
+                  <circle cx="200" cy="150" r="6" fill="#000" className="animate-pulse">
+                    <animate attributeName="r" values="6;8;6" dur="2.3s" repeatCount="indefinite"/>
+                  </circle>
+                  <circle cx="280" cy="150" r="6" fill="#000" className="animate-pulse">
+                    <animate attributeName="r" values="6;8;6" dur="2.6s" repeatCount="indefinite"/>
+                  </circle>
+                  
+                  {/* Branch nodes */}
+                  <circle cx="120" cy="80" r="4" fill="#666" className="animate-pulse">
+                    <animate attributeName="opacity" values="0.5;1;0.5" dur="1.8s" repeatCount="indefinite"/>
+                  </circle>
+                  <circle cx="200" cy="220" r="4" fill="#666" className="animate-pulse">
+                    <animate attributeName="opacity" values="0.5;1;0.5" dur="2.1s" repeatCount="indefinite"/>
+                  </circle>
+                  <circle cx="280" cy="80" r="4" fill="#666" className="animate-pulse">
+                    <animate attributeName="opacity" values="0.5;1;0.5" dur="2.4s" repeatCount="indefinite"/>
+                  </circle>
+                </g>
+                
+                {/* Rectangular process boxes */}
+                <g fill="none" stroke="#000" strokeWidth="1.5">
+                  <rect x="100" y="130" width="40" height="40" rx="4" className="animate-pulse">
+                    <animate attributeName="stroke-opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite"/>
+                  </rect>
+                  <rect x="180" y="130" width="40" height="40" rx="4" className="animate-pulse">
+                    <animate attributeName="stroke-opacity" values="0.3;1;0.3" dur="2.3s" repeatCount="indefinite"/>
+                  </rect>
+                  <rect x="260" y="130" width="40" height="40" rx="4" className="animate-pulse">
+                    <animate attributeName="stroke-opacity" values="0.3;1;0.3" dur="2.6s" repeatCount="indefinite"/>
+                  </rect>
+                </g>
+              </svg>
+              
+              {/* Floating process labels */}
+              <div className="absolute top-4 left-4 text-xs font-medium text-gray-600 bg-white px-2 py-1 rounded">
+                Manufacturing
+              </div>
+              <div className="absolute bottom-4 right-4 text-xs font-medium text-gray-600 bg-white px-2 py-1 rounded">
+                Distribution
+              </div>
+              <div className="absolute top-4 right-4 text-xs font-medium text-gray-600 bg-white px-2 py-1 rounded">
+                Logistics
+              </div>
+            </div>
           </AnimatedSection>
         </div>
       </div>
