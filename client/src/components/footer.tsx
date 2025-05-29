@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-4 gap-8">
           <div className="space-y-4">
-            <img src={hubbleWhiteLogo} alt="Hubble Logo" className="h-8 w-auto" />
+            <img src={hubbleWhiteLogo} alt="Hubble Logo" className="h-12 w-auto" />
             <p className="text-gray-300 leading-relaxed">
               Revolutionizing supply chain operations with intelligent, intuitive software solutions.
             </p>

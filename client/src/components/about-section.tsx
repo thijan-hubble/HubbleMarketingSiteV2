@@ -10,7 +10,7 @@ export default function AboutSection() {
             <div className="space-y-8">
               <div>
                 <h2 className="font-bold text-4xl lg:text-5xl mb-6 text-black">
-                  Why Choose <img src={hubbleBlackLogo} alt="Hubble" className="inline h-12 w-auto mx-2" />?
+                  Why Choose <img src={hubbleBlackLogo} alt="Hubble" className="inline h-16 w-auto mx-2" />?
                 </h2>
                 <p className="text-xl text-gray-600 leading-relaxed">
                   We're not just developers; we're your dedicated partners in innovation, committed to excellence and transformative solutions.
