@@ -29,7 +29,7 @@ type ContactFormData = z.infer<typeof contactFormSchema>;
 export default function ContactForm() {
   const { toast } = useToast();
   const [isSubmitted, setIsSubmitted] = useState(false);
-  
+
   const form = useForm<ContactFormData>({
     resolver: zodResolver(contactFormSchema),
     defaultValues: {
@@ -82,41 +82,43 @@ export default function ContactForm() {
                   Let's discuss how Hubble can revolutionize your operations with intelligent, user-friendly software solutions.
                 </p>
               </div>
-              
+
               <div className="space-y-6">
-                <div className="flex items-center space-x-4">
-                  <div className="w-12 h-12 bg-black rounded-lg flex items-center justify-center">
-                    <Phone className="text-white" size={20} />
-                  </div>
-                  <div>
-                    <div className="font-semibold text-lg">Call Us</div>
-                    <div className="text-gray-600">+1 (555) 123-4567</div>
-                  </div>
-                </div>
                 
+
                 <div className="flex items-center space-x-4">
                   <div className="w-12 h-12 bg-black rounded-lg flex items-center justify-center">
                     <Mail className="text-white" size={20} />
                   </div>
                   <div>
                     <div className="font-semibold text-lg">Email Us</div>
-                    <div className="text-gray-600">hello@hubble.co</div>
+                    <div className="text-gray-600">hello@hubble.inc</div>
                   </div>
                 </div>
-                
+
                 <div className="flex items-center space-x-4">
                   <div className="w-12 h-12 bg-black rounded-lg flex items-center justify-center">
                     <MapPin className="text-white" size={20} />
                   </div>
                   <div>
                     <div className="font-semibold text-lg">Visit Us</div>
-                    <div className="text-gray-600">123 Innovation Drive, Tech Valley, CA 94000</div>
+                    <div className="text-gray-600">Winelands Business Park<br />28 Sandringham Road<br />Kraaifontein, Cape Town<br />South Africa</div>
+                  </div>
+                </div>
+
+                <div className="flex items-center space-x-4">
+                  <div className="w-12 h-12 bg-black rounded-lg flex items-center justify-center">
+                    <Phone className="text-white" size={20} />
+                  </div>
+                  <div>
+                    <div className="font-semibold text-lg">Call Us</div>
+                    <div className="text-gray-600">+27 21 987 0190</div>
                   </div>
                 </div>
               </div>
             </div>
           </AnimatedSection>
-          
+
           <AnimatedSection delay={0.3}>
             <Card className="bg-gray-50 border-0 shadow-xl">
               <CardHeader>
@@ -160,7 +162,7 @@ export default function ContactForm() {
                           )}
                         />
                       </div>
-                      
+
                       <FormField
                         control={form.control}
                         name="email"
@@ -174,7 +176,7 @@ export default function ContactForm() {
                           </FormItem>
                         )}
                       />
-                      
+
                       <FormField
                         control={form.control}
                         name="company"
@@ -188,7 +190,7 @@ export default function ContactForm() {
                           </FormItem>
                         )}
                       />
-                      
+
                       <FormField
                         control={form.control}
                         name="industry"
@@ -213,7 +215,7 @@ export default function ContactForm() {
                           </FormItem>
                         )}
                       />
-                      
+
                       <FormField
                         control={form.control}
                         name="message"
@@ -231,7 +233,7 @@ export default function ContactForm() {
                           </FormItem>
                         )}
                       />
-                      
+
                       <Button 
                         type="submit" 
                         className="w-full bg-black text-white hover:bg-gray-800 text-lg py-3"
