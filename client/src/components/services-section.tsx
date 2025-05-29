@@ -1,5 +1,5 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Search, Cog, Users, Zap } from "lucide-react";
+import { Search, Cog, Users, Zap, Factory, Truck, Package, FlaskConical } from "lucide-react";
 import AnimatedSection from "@/components/ui/animated-section";
 
 export default function ServicesSection() {
@@ -92,25 +92,25 @@ export default function ServicesSection() {
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
               <div className="text-center">
                 <div className="w-16 h-16 bg-white rounded-lg flex items-center justify-center mx-auto mb-4">
-                  <span className="text-2xl">🏭</span>
+                  <Factory className="text-black" size={28} />
                 </div>
                 <div className="text-white font-semibold">Manufacturing</div>
               </div>
               <div className="text-center">
                 <div className="w-16 h-16 bg-white rounded-lg flex items-center justify-center mx-auto mb-4">
-                  <span className="text-2xl">🚛</span>
+                  <Truck className="text-black" size={28} />
                 </div>
                 <div className="text-white font-semibold">Logistics</div>
               </div>
               <div className="text-center">
                 <div className="w-16 h-16 bg-white rounded-lg flex items-center justify-center mx-auto mb-4">
-                  <span className="text-2xl">🏪</span>
+                  <Package className="text-black" size={28} />
                 </div>
                 <div className="text-white font-semibold">Distribution</div>
               </div>
               <div className="text-center">
                 <div className="w-16 h-16 bg-white rounded-lg flex items-center justify-center mx-auto mb-4">
-                  <span className="text-2xl">🧪</span>
+                  <FlaskConical className="text-black" size={28} />
                 </div>
                 <div className="text-white font-semibold">Laboratories</div>
               </div>
