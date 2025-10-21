@@ -6,9 +6,10 @@ hidden = [".config", ".git", "generated-icon.png", "node_modules", "dist"]
 channel = "stable-24_05"
 
 [deployment]
-deploymentTarget = "static"
+deploymentTarget = "autoscale"
 build = ["npm", "run", "build"]
 publicDir = "dist/public"
+run = ["npm", "run", "start"]
 
 [[deployment.rewrites]]
 from = "/*"
@@ -17,6 +18,10 @@ to = "/index.html"
 [[ports]]
 localPort = 5000
 externalPort = 80
+
+[[ports]]
+localPort = 38469
+externalPort = 3000
 
 [workflows]
 runButton = "Project"
