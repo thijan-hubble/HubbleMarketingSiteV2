@@ -27,18 +27,8 @@ export async function registerRoutes(app: Express): Promise<Server> {
     }
   });
 
-  // Get all contact submissions (for admin purposes)
-  app.get("/api/contact-submissions", async (req, res) => {
-    try {
-      const submissions = await storage.getContactSubmissions();
-      res.json(submissions);
-    } catch (error) {
-      res.status(500).json({ 
-        success: false, 
-        message: "Internal server error" 
-      });
-    }
-  });
+  // Contact submissions endpoint removed from public API for security
+  // Submissions are stored but only accessible server-side
 
   const httpServer = createServer(app);
   return httpServer;
