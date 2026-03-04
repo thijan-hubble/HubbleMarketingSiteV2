@@ -61,28 +61,56 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        // Hubble brand palette
+        "space-deep": "#0A0F1C",
+        "space-card": "#0F1A2E",
+        "glow-blue": "#4F8EF7",
+        "star-white": "#EEF2FF",
+      },
+      fontFamily: {
+        sans: ["Open Sans", "sans-serif"],
+        display: ["Montserrat", "sans-serif"],
+        script: ["Dancing Script", "cursive"],
       },
       keyframes: {
         "accordion-down": {
-          from: {
-            height: "0",
-          },
-          to: {
-            height: "var(--radix-accordion-content-height)",
-          },
+          from: { height: "0" },
+          to: { height: "var(--radix-accordion-content-height)" },
         },
         "accordion-up": {
-          from: {
-            height: "var(--radix-accordion-content-height)",
-          },
-          to: {
-            height: "0",
-          },
+          from: { height: "var(--radix-accordion-content-height)" },
+          to: { height: "0" },
+        },
+        shimmer: {
+          "0%": { backgroundPosition: "-200% 0" },
+          "100%": { backgroundPosition: "200% 0" },
+        },
+        "aperture-spin": {
+          from: { transform: "rotate(0deg)" },
+          to: { transform: "rotate(360deg)" },
+        },
+        "aperture-spin-reverse": {
+          from: { transform: "rotate(0deg)" },
+          to: { transform: "rotate(-360deg)" },
+        },
+        float: {
+          "0%, 100%": { transform: "translateY(0px)" },
+          "50%": { transform: "translateY(-12px)" },
+        },
+        "pulse-glow": {
+          "0%, 100%": { boxShadow: "0 0 8px rgba(79, 142, 247, 0.4)" },
+          "50%": { boxShadow: "0 0 24px rgba(79, 142, 247, 0.8)" },
         },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        shimmer: "shimmer 2.5s linear infinite",
+        "aperture-spin": "aperture-spin 14s linear infinite",
+        "aperture-spin-fast": "aperture-spin 8s linear infinite",
+        "aperture-spin-reverse": "aperture-spin-reverse 10s linear infinite",
+        float: "float 6s ease-in-out infinite",
+        "pulse-glow": "pulse-glow 2.5s ease-in-out infinite",
       },
     },
   },
