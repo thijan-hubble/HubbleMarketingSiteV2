@@ -10,8 +10,8 @@ const caseStudies = [
     description:
       "A major long-haul logistics company running on spreadsheets and WhatsApp. We replaced it — order intake, route planning, driver execution, and proof of delivery — in a single connected system.",
     image:
-      "https://images.unsplash.com/photo-1580674285054-bed31e145f59?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=300",
-    imgAlt: "Long-haul logistics fleet",
+      "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=300",
+    imgAlt: "Logistics and freight operations",
   },
   {
     badge: "Labs & Quality",
@@ -21,8 +21,8 @@ const caseStudies = [
     description:
       "An international pharmaceutical lab was running critical compliance workflows on paper. We digitised the entire QC and auditing process — every check logged, traceable, and audit-ready.",
     image:
-      "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=300",
-    imgAlt: "Pharmaceutical laboratory quality control",
+      "https://images.unsplash.com/photo-1582719471137-c3967ffb1c42?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=300",
+    imgAlt: "Laboratory and quality control",
   },
   {
     badge: "Supply Chain Equipment",
@@ -32,8 +32,8 @@ const caseStudies = [
     description:
       "A rental equipment company had no live view of where its stock was or how it was being billed. We built real-time tracking across stock movement, utilisation, and client invoicing.",
     image:
-      "https://images.unsplash.com/photo-1553413077-190dd305871c?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=300",
-    imgAlt: "Supply chain equipment and asset tracking",
+      "https://images.unsplash.com/photo-1565043666747-69f6646db940?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=300",
+    imgAlt: "Warehouse and inventory management",
   },
 ];
 

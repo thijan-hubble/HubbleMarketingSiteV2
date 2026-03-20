@@ -134,9 +134,7 @@ export default function HeroSection() {
             </h1>
 
             <p className="text-lg text-white/60 mb-8 max-w-2xl leading-relaxed">
-              We build custom tools for road freight, warehousing, 3PL,
-              manufacturing, and packaging operations — built around how you
-              actually work, not how a template says you should.{" "}
+              Custom software for supply chain operators. Built around your actual workflow — not a template.{" "}
               <span className="text-white font-semibold">Working software in 1–2 weeks.</span>
             </p>
 
