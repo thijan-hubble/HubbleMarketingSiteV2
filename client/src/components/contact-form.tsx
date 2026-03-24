@@ -13,6 +13,7 @@ import { useToast } from "@/hooks/use-toast";
 import { apiRequest } from "@/lib/queryClient";
 import AnimatedSection from "@/components/ui/animated-section";
 import { Mail, MapPin, Phone, CheckCircle } from "lucide-react";
+import { trackFormSubmission, trackConversion, trackLinkClick } from "@/lib/analytics";
 
 const contactFormSchema = z.object({
   firstName: z.string().min(1, "First name is required"),
@@ -47,8 +48,19 @@ export default function ContactForm() {
     mutationFn: async (data: ContactFormData) => {
       return await apiRequest("POST", "/api/contact", data);
     },
-    onSuccess: () => {
+    onSuccess: (_, variables) => {
       setIsSubmitted(true);
+
+      // Track form submission in Google Analytics
+      trackFormSubmission('contact_form', {
+        company: variables.company,
+        industry: variables.industry,
+        project_type: variables.projectType
+      });
+
+      // Track as a conversion/lead
+      trackConversion('lead_generated');
+
       toast({
         title: "Message received!",
         description: "We'll be in touch within one business day.",
@@ -95,7 +107,13 @@ export default function ContactForm() {
                   </div>
                   <div>
                     <div className="font-semibold text-lg">Email Us</div>
-                    <a href="mailto:hello@hubble.inc" className="text-gray-600 hover:text-black transition-colors">hello@hubble.inc</a>
+                    <a
+                      href="mailto:hello@hubble.inc"
+                      className="text-gray-600 hover:text-black transition-colors"
+                      onClick={() => trackLinkClick('Email', 'mailto:hello@hubble.inc', 'email')}
+                    >
+                      hello@hubble.inc
+                    </a>
                   </div>
                 </div>
 
