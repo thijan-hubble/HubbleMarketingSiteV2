@@ -59,7 +59,8 @@ app.use((req, res, next) => {
   // Serve the app on port 3000 (5000 is used by macOS Control Center)
   // this serves both the API and the client.
   const port = process.env.PORT ? parseInt(process.env.PORT) : 3000;
-  server.listen(port, "localhost", () => {
-    log(`serving on port ${port}`);
+  const host = process.env.NODE_ENV === "production" ? "0.0.0.0" : "localhost";
+  server.listen(port, host, () => {
+    log(`serving on ${host}:${port}`);
   });
 })();
