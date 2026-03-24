@@ -75,13 +75,18 @@ export function serveStatic(app: Express) {
     );
   }
 
-  app.use(express.static(distPath));
+  // Serve static files, but skip API routes entirely
+  app.use((req, res, next) => {
+    if (req.path.startsWith('/api')) {
+      return next();
+    }
+    express.static(distPath)(req, res, next);
+  });
 
-  // fall through to index.html if the file doesn't exist
-  // IMPORTANT: Only serve index.html for non-API routes
+  // fall through to index.html for non-API routes only
   app.use("*", (req, res, next) => {
     // Don't intercept API routes
-    if (req.originalUrl.startsWith('/api')) {
+    if (req.path.startsWith('/api')) {
       return next();
     }
     res.sendFile(path.resolve(distPath, "index.html"));
