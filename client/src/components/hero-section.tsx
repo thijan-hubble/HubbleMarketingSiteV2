@@ -157,11 +157,6 @@ export default function HeroSection() {
               </Button>
             </div>
 
-            {/* Risk-removal trust line */}
-            <p className="text-sm text-white/35 mt-4 text-center lg:text-left">
-              No long-term contracts. No months of discovery. Scope and price agreed upfront — always.
-            </p>
-
             {/* Stats */}
             <div className="flex items-center justify-center lg:justify-start space-x-8 pt-10 border-t border-white/10 mt-10">
               <div className="text-center">

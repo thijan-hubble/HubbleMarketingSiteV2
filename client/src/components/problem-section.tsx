@@ -63,7 +63,7 @@ export default function ProblemSection() {
 
             <p className="text-xl text-gray-500 max-w-2xl mx-auto leading-relaxed">
               Most SA supply chain operations run on some combination of
-              spreadsheets, WhatsApp, paper, and tribal knowledge. It works —
+              spreadsheets, WhatsApp, paper, and individual knowledge. It works —
               until it doesn't.
             </p>
           </div>

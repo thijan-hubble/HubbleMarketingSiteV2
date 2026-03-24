@@ -5,7 +5,6 @@ const clients = [
   { name: "GoMove", logo: "/GoMove-logo.svg", invert: false },
   { name: "Lieben Logistics", logo: "/LiebenLogistics-logo.png", invert: true },
   { name: "RSC", logo: "/RSC-LOGO.jpg", invert: false },
-  { name: "Fresenius Kabi", logo: "/fresenius-kabi-logo.png", invert: false },
 ];
 
 export default function LogosSection() {
