@@ -75,9 +75,12 @@ export function serveStatic(app: Express) {
     );
   }
 
+  log(`Static files will be served from: ${distPath}`);
+
   // Serve static files, but skip API routes entirely
   app.use((req, res, next) => {
     if (req.path.startsWith('/api')) {
+      log(`Skipping static middleware for API route: ${req.path}`);
       return next();
     }
     express.static(distPath)(req, res, next);
@@ -87,8 +90,10 @@ export function serveStatic(app: Express) {
   app.use("*", (req, res, next) => {
     // Don't intercept API routes
     if (req.path.startsWith('/api')) {
+      log(`Skipping catch-all for API route: ${req.path}`);
       return next();
     }
+    log(`Serving index.html for route: ${req.path}`);
     res.sendFile(path.resolve(distPath, "index.html"));
   });
 }

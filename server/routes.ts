@@ -15,7 +15,9 @@ const contactSchema = z.object({
 
 export async function registerRoutes(app: Express): Promise<Server> {
   // Contact form submission — sends email via Resend
+  console.log("[Routes] Registering POST /api/contact endpoint");
   app.post("/api/contact", async (req, res) => {
+    console.log("[Routes] POST /api/contact handler called");
     try {
       const data = contactSchema.parse(req.body);
 
