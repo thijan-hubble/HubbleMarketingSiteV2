@@ -44,15 +44,6 @@ export default function HeroSection() {
           }}
         />
         <div
-          className="absolute bottom-1/3 left-1/4 w-0 h-0 opacity-8 animate-pulse"
-          style={{
-            borderLeft: "8px solid transparent",
-            borderRight: "8px solid transparent",
-            borderTop: "14px solid #ffffff",
-            animationDelay: "1.2s",
-          }}
-        />
-        <div
           className="absolute bottom-24 right-1/3 w-0 h-0 opacity-10 animate-pulse"
           style={{
             borderLeft: "20px solid transparent",
@@ -123,9 +114,9 @@ export default function HeroSection() {
               className="font-bold text-4xl md:text-6xl lg:text-7xl leading-tight mb-6 text-white"
               style={{ fontFamily: "Montserrat, sans-serif" }}
             >
-              Your operation outgrew spreadsheets.{" "}
+              Your Operation Deserves Better Than{" "}
               <span className="relative">
-                <span style={{ color: "#4F8EF7" }}>Your software should too.</span>
+                <span style={{ color: "#4F8EF7" }}>Spreadsheets and WhatsApp</span>
                 <div
                   className="absolute -bottom-2 left-0 w-full h-0.5 opacity-40"
                   style={{ backgroundColor: "#4F8EF7" }}
@@ -134,8 +125,7 @@ export default function HeroSection() {
             </h1>
 
             <p className="text-lg text-white/60 mb-8 max-w-2xl leading-relaxed">
-              Custom software for supply chain operators. Built around your actual workflow — not a template.{" "}
-              <span className="text-white font-semibold">Working software in 1–2 weeks.</span>
+              Custom operations software for South Africa's supply chain — transport, warehousing, 3PL, manufacturing, and packaging.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">

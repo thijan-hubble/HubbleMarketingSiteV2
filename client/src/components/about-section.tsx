@@ -31,7 +31,7 @@ export default function AboutSection() {
                 {[
                   {
                     title: "We speak your language",
-                    body: "No jargon, no consultants. We come from operations backgrounds — we ask the right questions and build to your actual workflow, not what a textbook says it should look like.",
+                    body: "No jargon, no consultants. We build for South African operators — we understand your challenges and build to your actual workflow, not what a textbook says it should look like.",
                     up: true,
                   },
                   {
@@ -223,13 +223,13 @@ export default function AboutSection() {
                   style={{ textShadow: "0 0 30px rgba(79,142,247,0.6)" }}
                 >
                   <div
-                    className="text-3xl font-bold text-white hubble-script"
-                    style={{ letterSpacing: "0.02em" }}
+                    className="text-3xl text-white hubble-script"
+                    style={{ letterSpacing: "0.02em", fontWeight: "700" }}
                   >
                     hubble
                   </div>
                   <div className="text-xs text-white/40 tracking-widest mt-1 uppercase">
-                    Precision Software
+                    Supply Chain Software
                   </div>
                 </div>
               </div>

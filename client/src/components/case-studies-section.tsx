@@ -63,7 +63,7 @@ export default function CaseStudiesSection() {
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
               Real problems, real software. Here's what we've built for
-              operators like yours.
+              South African operators like yours.
             </p>
           </div>
         </AnimatedSection>

@@ -44,7 +44,7 @@ export default function Navigation() {
           <div className="flex items-center">
             <img
               src={isScrolled ? hubbleBlackLogo : hubbleWhiteLogo}
-              alt="Hubble Logo"
+              alt="Hubble — Custom Supply Chain Software South Africa"
               className="h-20 w-auto transition-all duration-300"
             />
           </div>

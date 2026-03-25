@@ -202,9 +202,9 @@ export default function ServicesSection() {
                         style={{ color: "#4F8EF7" }}
                       />
                     </div>
-                    <div className="text-white font-semibold text-sm leading-tight whitespace-pre-line">
+                    <h3 className="text-white font-semibold text-sm leading-tight whitespace-pre-line">
                       {label}
-                    </div>
+                    </h3>
                   </div>
                 ))}
               </div>
